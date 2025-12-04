@@ -20,7 +20,7 @@ def draw_graph(root, format = 'svg'):
     
     for n in nodes:
         uid = str(id(n))
-        label - f"{n._op} | val = {n.data:.4f} | grad = {n.grad:.4f}"
+        label = f"{n._op} | val = {n.data:.4f} | grad = {n.grad:.4f}"
         dot.node(name = uid, label = label, shape = 'record')
 
     for child, parent in edges:
