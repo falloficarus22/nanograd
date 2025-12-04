@@ -1,4 +1,4 @@
-from nano_mlp import *
+from nanograd import MLP, Value, draw_graph
 
 xs = [
     [2.0, 3.0], 
@@ -29,3 +29,6 @@ for k in range(200):
 
     if k % 20 == 0:
         print(k, loss.data)
+
+dot = draw_graph(loss)
+dot.render("mlp_graph", view = True)
