@@ -9,4 +9,5 @@ bitgrad.egg-info/PKG-INFO
 bitgrad.egg-info/SOURCES.txt
 bitgrad.egg-info/dependency_links.txt
 bitgrad.egg-info/entry_points.txt
+bitgrad.egg-info/requires.txt
 bitgrad.egg-info/top_level.txt
