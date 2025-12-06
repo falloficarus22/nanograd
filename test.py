@@ -1,5 +1,5 @@
-from nanograd import MLP, Value
-from nanograd.viz import draw_graph
+from bitgrad import MLP, Value
+from bitgrad.viz import draw_graph
 
 model = MLP(2, [4, 4, 1])
 x = [2.0, 3.0]

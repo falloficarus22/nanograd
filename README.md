@@ -1,6 +1,6 @@
-NANOGRAD:
+BITGRAD:
 A small autograd engine + neural network + visualization library
-Nanograd is a minimal neural network built from scratch in Python
+Bitgrad is a minimal neural network built from scratch in Python
 
 Key Features:
 > Value Class with reverse-mode autodiff

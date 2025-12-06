@@ -1,4 +1,5 @@
-from nanograd import MLP, Value, draw_graph
+from bitgrad import MLP, Value, draw_graph
+from bitgrad.viz import save_graph
 
 xs = [
     [2.0, 3.0], 
@@ -32,3 +33,4 @@ for k in range(200):
 
 dot = draw_graph(loss)
 dot.render("mlp_graph", view = True)
+save_graph(loss, 'loss.pkl')

@@ -1,5 +1,5 @@
 import random
-from nanograd import Value
+from bitgrad import Value
 
 class Neuron:
     def __init__(self, nin):
