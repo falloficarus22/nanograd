@@ -7,3 +7,14 @@ Key Features:
 > Neurons, Layers and MLPs
 > Graph Visualization (SVG)
 > Structured project files and directories + packaging
+
+INSTALLATION
+
+Install from PyPI:
+> pip install bitgrad
+
+Or install from source:
+> git clone https://github.com/falloficarus22/bitgrad
+> cd bitgrad
+> pip install -e .
+
